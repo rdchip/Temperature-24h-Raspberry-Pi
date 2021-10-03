@@ -8,7 +8,7 @@ This project is implemented for monitoring 24 hours in a plot.
 
 Raspberry Pi Zero
 
-<img src="picture/IMG_0325 (2).jpg" width=172>  <img src="picture/DHT22-sensorT.jpg" width=300>
+<img src="picture/IMG_0325 (2).jpg" width=172>  <img src="picture/iUniker.jpg" width=295> <img src="picture/DHT22-sensorT.jpg" width=300>
 
 
 https://www.amazon.com/gp/product/B071L2ZQZX/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1
