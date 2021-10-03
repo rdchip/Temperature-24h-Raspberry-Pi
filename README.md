@@ -1,6 +1,6 @@
-# Temperature-24h-Raspberry-Py
+# Temperature-24h-Raspberry-Pi
 Raspberry Pi Zero project for monitor 24h temperature
-This project is implemented for monitoring 24 hours in a plot.
+This project is implemented for monitoring 24 hours in Python.
 
 <img src="picture/IMG_0604.jpg" width=300>       <img src="picture/IMG_0350.jpg" width=300>
 
