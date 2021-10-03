@@ -2,7 +2,7 @@
 Raspberry Pi Zero project for monitor 24h temperature
 This project is implemented for monitoring 24 hours in a plot.
 
-<img src="picture/IMG_0496.jpg" width=300>
+<img src="picture/IMG_0604.jpg" width=300>
 
 # Requirements
 
