@@ -35,8 +35,8 @@ MicroSD memory
 
 # Raspberry Pi Linux Image
 
-<img scr="picture/Pi ports.png" width=200> 
 
+<img src="picture/Pi ports.png" width=500>
 
 # Python code
 
