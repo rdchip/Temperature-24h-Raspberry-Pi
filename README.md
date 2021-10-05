@@ -33,6 +33,11 @@ MicroSD memory
 - Reduce the brightness 
 - Parallel bash code 
 
+# Raspberry Pi Linux Image
+
+<img scr="picture/Pi ports.png" width=200> 
+
+
 # Python code
 
 # Parallel Bash code
