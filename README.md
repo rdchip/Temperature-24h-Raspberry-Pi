@@ -21,6 +21,18 @@ https://www.amazon.com/gp/product/B073F472JL/ref=ppx_yo_dt_b_asin_title_o01_s00?
 
 MicroSD memory 
 
+# Instructions
+- Create Raspberry Pi Linux image 
+- Power up Raspberry with Linux
+- Install Python
+- Install libraries for python
+- Sensor temperature connection
+- Test python project code
+- Install LCD screen
+- Learn un-install LCD screen
+- Reduce the brightness 
+- Parallel bash code 
+
 # Python 2.7 code
 
 # Parallel Bash code
