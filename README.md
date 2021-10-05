@@ -33,6 +33,6 @@ MicroSD memory
 - Reduce the brightness 
 - Parallel bash code 
 
-# Python 2.7 code
+# Python code
 
 # Parallel Bash code
