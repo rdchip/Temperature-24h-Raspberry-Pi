@@ -35,16 +35,17 @@ MicroSD memory
 
 # Raspberry Pi Linux Image
 
-
-<img src="picture/Pi ports.png" width=500>
-
 Raspberry Pi Zero GPIO pin distribution
 
-<img src="picture/pin_map.png" width=500>
+<img src="picture/Pi ports.png" width=512>    <img src="picture/pin_map.png" width=448>
 
-W Screen iUniker 2.8" GPIO pin distribution
+W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
 
-<img src="picture/screen_map.png" width=500>
+<img src="picture/screen_map.png" width=367>   <img src="picture/sensor_map.png" width=300>
+
+
+
+
 # Python code
 
 # Parallel Bash code
