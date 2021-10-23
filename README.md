@@ -38,6 +38,7 @@ MicroSD memory
 
 <img src="picture/Pi ports.png" width=500>
 
+<img src="picture/pin_map.png" width=500>
 # Python code
 
 # Parallel Bash code
