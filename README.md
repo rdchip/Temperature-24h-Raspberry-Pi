@@ -38,7 +38,11 @@ MicroSD memory
 
 <img src="picture/Pi ports.png" width=500>
 
+Raspberry Pi Zero GPIO pin distribution
+
 <img src="picture/pin_map.png" width=500>
+
+W Screen iUniker 2.8" GPIO pin distribution
 
 <img src="picture/screen_map.png" width=500>
 # Python code
