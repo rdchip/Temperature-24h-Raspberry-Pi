@@ -73,7 +73,6 @@ From the terminal run "temp.sh"
 $ ./temp.sh
 
 
-
 # Python code
 
 # Parallel Bash code
