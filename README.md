@@ -23,7 +23,17 @@ https://www.amazon.com/gp/product/B07H8ZY89H/ref=ppx_yo_dt_b_asin_title_o08_s00?
 DHT22 / AM2302 Digital Humidity and Temperature Sensor Module
 https://www.amazon.com/gp/product/B073F472JL/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
 
-MicroSD memory 
+MicroSD memory
+
+# Relevant Information
+
+Raspberry Pi Zero GPIO pin distribution
+
+<img src="picture/Pi ports.png" width=512>    <img src="picture/pin_map.png" width=448>
+
+W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
+
+<img src="picture/screen_map.png" width=367>   <img src="picture/sensor_map.png" width=300>
 
 # Instructions
 - Create Raspberry Pi Linux image 
@@ -39,13 +49,7 @@ MicroSD memory
 
 # Raspberry Pi Linux Image
 
-Raspberry Pi Zero GPIO pin distribution
 
-<img src="picture/Pi ports.png" width=512>    <img src="picture/pin_map.png" width=448>
-
-W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
-
-<img src="picture/screen_map.png" width=367>   <img src="picture/sensor_map.png" width=300>
 
 # Booting Up on the W screen display
 
