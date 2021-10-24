@@ -50,9 +50,15 @@ W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
 # Booting Up on the W screen display
 
 After verifying functionality using regular monitor is time to change to 2.8" display.
-Run the batch code "set_screen.sh"
+From the terminal, go to the Raspberry folder and run the batch code "set_screen.sh"
+
 $ ./set_screen.sh
+
 The installation will reboot the system and your 2.8" display will be alive.
+Now is time to run the temperature code.
+From the terminal run "temp.sh"
+
+$ ./temp.sh
 
 
 
