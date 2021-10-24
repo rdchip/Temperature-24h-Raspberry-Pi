@@ -38,8 +38,7 @@ W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
 # Instructions
 - Create Raspberry Pi Linux image 
 - Power up Raspberry with Linux
-- Install Python
-- Install libraries for python
+- Install Python and libraries
 - Sensor temperature connection
 - Test python project code
 - Install W screen Display 2.8-inch
@@ -64,6 +63,11 @@ After download and install "Raspberry Pi Imager" open it and click in "CHOOSE OS
 Next, select the storage: click in "CHOOSE STORAGE" and select your microSD memory. Finally click in "WRITE" to create the boot card. At the end, you will see something like this:
 
 <img src="picture/imager2.png" width=400>
+
+# Power up Raspberry with Linux
+
+
+# Install Python and libraries
 
 
 # Booting Up on the W screen display
