@@ -70,6 +70,8 @@ $ ./temp.sh
 
 # Parallel Bash code
 
+<img src="picture/parallel.png" width=300>
+
 # Uninstall 2.8" screen display
 
 # Brightness adjustment
