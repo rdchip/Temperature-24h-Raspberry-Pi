@@ -52,10 +52,16 @@ W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
 After verifying functionality using regular monitor is time to change to 2.8" display.
 Run the batch code "set_screen.sh"
 $ ./set_screen.sh
-the installation will reboot the system and your 2.8" display will be alive.
+The installation will reboot the system and your 2.8" display will be alive.
 
 
 
 # Python code
 
 # Parallel Bash code
+
+# Desinstall 2.8" screen display
+
+# Brightness adjustment
+
+
