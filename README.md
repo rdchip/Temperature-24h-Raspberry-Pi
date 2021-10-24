@@ -57,7 +57,7 @@ Choose the right version:
 -  Download for macOS
 -  Download for Ubuntu for x86
 
-<img src="picture/imager.png" width=512>
+<img src="picture/imager.png" width=400>
 
 # Booting Up on the W screen display
 
