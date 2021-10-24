@@ -47,6 +47,12 @@ W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
 
 <img src="picture/screen_map.png" width=367>   <img src="picture/sensor_map.png" width=300>
 
+# Booting Up on the W screen display
+
+After verifying functionality using regular monitor is time to change to 2.8" display.
+Run the batch code "set_screen.sh"
+$ ./set_screen.sh
+the installation will reboot the system and your 2.8" display will be alive.
 
 
 
