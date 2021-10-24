@@ -42,7 +42,7 @@ W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
 - Install libraries for python
 - Sensor temperature connection
 - Test python project code
-- Install W 2.8" inch screen
+- Install W screen Display 2.8-inch
 - Learn un-install LCD screen
 - Reduce the brightness 
 - Parallel bash code 
