@@ -6,11 +6,11 @@ The solution was run an small paralle bash script which run the python code for 
 
 This project is implemented for monitoring 24 hours in Python.
 
-<img src="picture/IMG_0604.jpg" width=300>       <img src="picture/IMG_0350.jpg" width=300>
+<img src="picture/IMG_0604.jpg" width=480>       <img src="picture/IMG_0350.jpg" width=480>
 
 # Requirements
 
-Raspberry Pi Zero
+Raspberry Pi Zero --------------- W Screen 2.8-inch Display -------------- DHT22 Temperature Sensor 
 
 <img src="picture/IMG_0325 (2).jpg" width=172>  <img src="picture/iUniker.jpg" width=295> <img src="picture/DHT22-sensorT.jpg" width=300>
 
