@@ -49,7 +49,13 @@ W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
 
 # Raspberry Pi Linux Image
 
-
+Basically, the Raspberry Pi needs an Operating System (OS) in order to do any job. Then the microSD memory will store the OS, in this case is Raspbian.
+In this section we will install the Raspbian in the microSD memory. 
+Go to www.raspberrypi.com/software/ and download "Raspberry Pi Imager v1.6"
+Choose the right version:
+Download for Windows
+Download for macOS
+Download for Ubuntu for x86
 
 # Booting Up on the W screen display
 
