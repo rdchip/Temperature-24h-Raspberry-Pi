@@ -51,13 +51,18 @@ W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
 
 Basically, the Raspberry Pi needs an Operating System (OS) in order to do any job. Then the microSD memory will store the OS, in this case is Raspbian.
 In this section we will install the Raspbian in the microSD memory. 
-Go to www.raspberrypi.com/software/ and download "Raspberry Pi Imager v1.6"
+Just go to www.raspberrypi.com/software/ and download "Raspberry Pi Imager v1.6"
+
 Choose the right version:
 -  Download for Windows
 -  Download for macOS
 -  Download for Ubuntu for x86
 
 <img src="picture/imager.png" width=400>
+
+After download and install "Raspberry Pi Imager" open it and click in "CHOOSE OS", since is the first time, select "Raspberry Pi OS (32-bits)".
+Next, select the storage: click in "CHOOSE STORAGE" and select your microSD memory. Finally click in "WRITE" to create the boot card.
+
 
 # Booting Up on the W screen display
 
