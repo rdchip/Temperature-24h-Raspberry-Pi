@@ -66,7 +66,7 @@ $ ./temp.sh
 
 # Parallel Bash code
 
-# Desinstall 2.8" screen display
+# Uninstall 2.8" screen display
 
 # Brightness adjustment
 
