@@ -72,6 +72,18 @@ It is time to assembly part of the setup, connect the mini HDMI cable to the mon
 
 # Install Python and libraries
 
+- Install Python 2.7
+
+Install Libraries:
+
+- Adafruit_DHT
+- import time
+- import psutil
+- import numpy as np
+- import matplotlib
+- import sys
+- import os.path
+- import csv
 
 # Booting Up on the W screen display
 
