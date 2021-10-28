@@ -64,8 +64,11 @@ Next, select the storage: click in "CHOOSE STORAGE" and select your microSD memo
 
 <img src="picture/imager2.png" width=400>
 
+Now the microSD memory is ready to place in the Raspberry Pi Zero.   
+
 # Power up Raspberry with Linux
 
+It is time to assembly part of the setup, connect the mini HDMI cable to the monitor, connect keyboard and mouse using usb hub, place the microSD memory and power up. Linux will prompt in the monitor. Now you can install Python and all libraries from the terminal.  
 
 # Install Python and libraries
 
