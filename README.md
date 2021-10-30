@@ -85,6 +85,8 @@ Install Libraries:
 - import os.path
 - import csv
 
+After all library installed, is time to 
+
 # Booting Up on the W screen display
 
 After verifying functionality using regular monitor is time to change to 2.8" display.
