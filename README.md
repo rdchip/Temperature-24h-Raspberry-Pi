@@ -37,7 +37,7 @@ W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
 
 # Instructions
 - Create Raspberry Pi Linux image
-- Sensor temperature connection 
+- Sensor temperature connection and 2.8" display 
 - Power up Raspberry with Linux
 - Install Python and libraries
 - Test python project code
@@ -66,10 +66,10 @@ Next, select the storage: click in "CHOOSE STORAGE" and select your microSD memo
 
 Now the microSD memory is ready to place in the Raspberry Pi Zero.   
 
-# Sensor temperature connection
+# Sensor temperature connection and 2.8"Display
 
 
-<img src="picture/table_sensor.png" width=480> 
+<img src="picture/table_sensor.png" width=200> 
 <img src="picture/connection.png" width=480>
 
 
