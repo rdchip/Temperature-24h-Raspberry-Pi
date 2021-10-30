@@ -69,9 +69,9 @@ Now the microSD memory is ready to place in the Raspberry Pi Zero.
 # Sensor temperature connection and 2.8"Display
 
 
-<img src="picture/table_sensor.png" width=200> 
-<img src="picture/connection.png" width=480>
-
+<img src="picture/table_sensor.png" width=200>
+<img src="picture/connection.png" width=400>
+<img src="picture/zero_plus_display.png" width=200>
 
 # Power up Raspberry with Linux
 
