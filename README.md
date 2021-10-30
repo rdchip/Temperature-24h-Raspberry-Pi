@@ -39,7 +39,7 @@ W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
 - Create Raspberry Pi Linux image
 - Sensor temperature connection and 2.8" display 
 - Power up Raspberry with Linux
-- Install Python and libraries
+  - Install Python and libraries
 - Test python project code
 - Install W screen Display 2.8-inch
 - Learn un-install LCD screen
@@ -68,16 +68,17 @@ Now the microSD memory is ready to place in the Raspberry Pi Zero.
 
 # Sensor temperature connection and 2.8"Display
 
+The table shows the pin assigment to connect the sensor tmeperature and the Raspberry Pi Zero. Solder first the 2.8" display with the Raspberry Pi Zero and later solder the cables of the sensor. If you are planning to use the Raspberry for other project also, I recomend use 2x20 Pin Female Header as extension, so you can remove the display easily.  
 
 <img src="picture/table_sensor.png" width=200>
+<img src="picture/zero_plus_display.png" width=400>
 <img src="picture/connection.png" width=400>
-<img src="picture/zero_plus_display.png" width=200>
 
-# Power up Raspberry with Linux
+At this point, all hardware is connected and the operating system (Linux) is ready but the 2.8" display won't wake-up because there is not drivers installed. Let's power up and install Python, libraries and drivers.
+
+# Power up Raspberry Pi Zero
 
 It is time to assembly part of the setup, connect the mini HDMI cable to the monitor, connect keyboard and mouse using usb hub, place the microSD memory and power up. Linux will prompt in the monitor. Now you can install Python and all libraries from the terminal.  
-
-# Install Python and libraries
 
 - Install Python 2.7
 
