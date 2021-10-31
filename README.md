@@ -78,7 +78,7 @@ At this point, all hardware is connected and the operating system (Linux) is rea
 
 # Power up Raspberry Pi Zero
 
-It is time to assembly part of the setup, connect the mini HDMI cable to the monitor, connect keyboard and mouse using usb hub, place the microSD memory and power up. Linux will prompt in the monitor. Now you can install Python and all libraries from the terminal.  
+Connect the mini HDMI cable to the monitor, also keyboard and mouse using usb hub, place the microSD memory and power up. Linux will prompt in your monitor. Now you can install Python and all libraries from the terminal.  
 
 - Install Python 2.7
 
@@ -93,9 +93,9 @@ Install Libraries:
 - import os.path
 - import csv
 
-After all library installed, is time to 
+After all library installed, is time to see the temperature graph in the big monitor.
 
-# Booting Up on the W screen display
+# Booting Up on the W 2.8" screen display
 
 After verifying functionality using regular monitor is time to change to 2.8" display.
 From the terminal, go to the Raspberry folder and run the batch code "set_screen.sh"
