@@ -95,6 +95,16 @@ Install Libraries:
 
 After all library installed, is time to see the temperature graph in the big monitor.
 
+Download the folder MZDPI and all files from codes section. Keep the same file organization. Create a folder colled Rasberri and place all inside.  
+
+change directory:
+$ cd Raspberri
+
+run the command:
+$ sudo bash temp.sh
+
+
+
 # Booting Up on the W 2.8" screen display
 
 After verifying functionality using regular monitor is time to change to 2.8" display.
