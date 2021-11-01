@@ -91,9 +91,13 @@ $ sudo apt full-upgrade
 
 It will take longer, maybe 1 hour to finish it.
 
-Now you can install Python and all libraries from the terminal.  
+Now you can install Python and all libraries from the terminal. 
 
 - Install Python 2.7
+
+Install parallel
+
+$ sudo apt install parallel
 
 Install Libraries:
 
