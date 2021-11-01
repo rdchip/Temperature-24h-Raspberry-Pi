@@ -78,7 +78,20 @@ At this point, all hardware is connected and the operating system (Linux) is rea
 
 # Power up Raspberry Pi Zero
 
-Connect the mini HDMI cable to the monitor, also keyboard and mouse using usb hub, place the microSD memory and power up. Linux will prompt in your monitor. Now you can install Python and all libraries from the terminal.  
+Connect the mini HDMI cable to the monitor, also keyboard and mouse using usb hub, place the microSD memory and power up. Linux will prompt in your monitor. 
+Since is the first boot, you need to follow the guide to setup your language, local time, and all things. The most important is the wifi connection because you need to update the OS. If for some reason you get problems with the wifi connection, just reboot several times (maybe 5 times). After you get the internet connection, update Linux:
+
+Open the terminal and run the command:
+
+$ sudo apt update
+
+later
+
+$ sudo apt full-upgrade
+
+It will take longer, maybe 1 hour to finish it.
+
+Now you can install Python and all libraries from the terminal.  
 
 - Install Python 2.7
 
