@@ -93,12 +93,9 @@ It will take longer, maybe 1 hour to finish it.
 
 Now you can install Python and all libraries from the terminal. 
 
-- Install Python 2.7 \n
-  Maybe Python 2.7 is already installed, type python in the terminal and you will see it. Otherwise type:
+- Install Python 2.7  (Maybe Python 2.7 is already installed, type python in the terminal and you will see). Otherwise type:
 
 $ sudo apt install python2.7
-  
-  
 
 Install parallel
 
@@ -107,13 +104,23 @@ $ sudo apt install parallel
 Install Libraries:
 
 - Adafruit_DHT
+
+$ sudo pip install Adafruit_DHT
+
 - import time
 - import psutil
+
+$ sudo pip install psutil
+
 - import numpy as np
+
+$ sudo pip install numpy
+
 - import matplotlib
-- import sys
-- import os.path
-- import csv
+
+$ sudo pip install matplotlib
+
+
 
 After all library installed, is time to see the temperature graph in the big monitor.
 
