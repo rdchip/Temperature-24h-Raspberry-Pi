@@ -1,4 +1,5 @@
-# Temperature-24h-Raspberry-Pi
+Temperature 24h Raspberry Pi 
+=======
 Raspberry Pi Zero project is for monitor 24h temperature using W screen 2.8-inch display. Raspberry Pi OS (32-bits) based on Debian Linux distibution, allows to install Python plus libraries. With Linux and Python installed we are able read data from DHT22 temperature sensor and plot it in the 2.8-inch display. Basically for plotting we are using Matplotlib plus a function animation, the animation add one more valeus and re-plot the graph. Each interaction takes 1 minute. The sensor also provide humidity valeu in percentage but we are just ploting temperature.
 
 Ploting temperatures values in the display is no complicated, actually that was the easier part. Since our intention is to left running for a long time, after five days running the RAM memory start increasing finally the Raspberry Pi collapse. After debugging and research about the issue, we discover Matplotlib plotting in a loop increase the SRAM memory. 
@@ -82,9 +83,9 @@ Connect the mini HDMI cable to the monitor, also keyboard and mouse using usb hu
 Since is the first boot, you need to follow the guide to setup your language, local time, and all things. The most important is the wifi connection because you need to update the OS. If for some reason you get problems with the wifi connection, just reboot several times (maybe 5 times). After you get the internet connection, update Linux:
 
 Open the terminal and run the command:
-
+````sh
 $ sudo apt update
-
+````
 later
 
 $ sudo apt full-upgrade
@@ -107,7 +108,6 @@ Install Libraries:
 
 $ sudo pip install Adafruit_DHT
 
-- import time
 - import psutil
 
 $ sudo pip install psutil
