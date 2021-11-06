@@ -87,39 +87,39 @@ Open the terminal and run the command:
 $ sudo apt update
 ````
 later
-
+````sh
 $ sudo apt full-upgrade
-
+````
 It will take longer, maybe 1 hour to finish it.
 
 Now you can install Python and all libraries from the terminal. 
 
 - Install Python 2.7  (Maybe Python 2.7 is already installed, type python in the terminal and you will see). Otherwise type:
-
+````sh
 $ sudo apt install python2.7
-
+````
 Install parallel
-
+````sh
 $ sudo apt install parallel
-
+````
 Install Libraries:
 
 - Adafruit_DHT
-
+````sh
 $ sudo pip install Adafruit_DHT
-
+````
 - import psutil
-
+````sh
 $ sudo pip install psutil
-
+````
 - import numpy as np
-
+````sh
 $ sudo pip install numpy
-
+````
 - import matplotlib
-
+````sh
 $ sudo apt install python-matplotlib
-
+````
 
 
 After all library installed, is time to see the temperature graph in the big monitor.
@@ -127,26 +127,28 @@ After all library installed, is time to see the temperature graph in the big mon
 Download the folder MZDPI and all files from codes section. Keep the same file organization. Create a folder colled Rasberri and place all inside.  
 
 change directory:
+````sh
 $ cd Raspberri
-
+````
 run the command:
+````sh
 $ sudo bash temp.sh
-
+````
 
 
 # Booting Up on the W 2.8" screen display
 
 After verifying functionality using regular monitor is time to change to 2.8" display.
 From the terminal, go to the Raspberry folder and run the batch code "set_screen.sh"
-
+````sh
 $ ./set_screen.sh
-
+````
 The installation will reboot the system and your 2.8" display will be alive.
 Now is time to run the temperature code.
 From the terminal run "temp.sh"
-
+````sh
 $ ./temp.sh
-
+````
 
 # Python code
 
