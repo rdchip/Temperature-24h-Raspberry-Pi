@@ -93,7 +93,12 @@ It will take longer, maybe 1 hour to finish it.
 
 Now you can install Python and all libraries from the terminal. 
 
-- Install Python 2.7
+- Install Python 2.7 \n
+  Maybe Python 2.7 is already installed, type python in the terminal and you will see it. Otherwise type:
+
+$ sudo apt install python2.7
+  
+  
 
 Install parallel
 
