@@ -118,7 +118,7 @@ $ sudo pip install numpy
 
 - import matplotlib
 
-$ sudo pip install matplotlib
+$ sudo apt install python-matplotlib
 
 
 
