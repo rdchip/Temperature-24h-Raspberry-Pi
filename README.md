@@ -121,12 +121,15 @@ $ sudo pip install numpy
 $ sudo apt install python-matplotlib
 ````
 
-- install screensaver
+- install screensaver (in case you need to disable the screensaver)
 ````sh
 $ sudo apt install xscreensaver
 ````
-In case you need to disable the screensaver
 
+
+# Increasing the Swap File on a Raspberry Pi
+
+https://pimylifeup.com/raspberry-pi-swap-file/
 
 After all library installed, is time to see the temperature graph in the big monitor.
 
