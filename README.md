@@ -159,6 +159,9 @@ The plot will appears like this:
 
 After verifying functionality using regular monitor is time to change to 2.8" display.
 From the terminal, go to the Raspberry folder and run the batch code "set_screen.sh"
+
+<img src="picture/font_size.png" width=950>
+
 ````sh
 $ ./set_screen.sh
 ````
