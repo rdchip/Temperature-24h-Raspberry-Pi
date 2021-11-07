@@ -80,21 +80,23 @@ At this point, all hardware is connected and the operating system (Linux) is rea
 # Power up Raspberry Pi Zero
 
 Connect the mini HDMI cable to the monitor, also keyboard and mouse using usb hub, place the microSD memory and power up. Linux will prompt in your monitor. 
-Since is the first boot, you need to follow the guide to setup your language, local time, and all things. The most important is the wifi connection because you need to update the OS. If for some reason you get problems with the wifi connection, just reboot several times (maybe 5 times). After you get the internet connection, update Linux:
+Since is the first boot, you need to follow the guide to setup your language, local time, and all things. The most important is the wifi connection because you need to update the OS. If for some reason you get problems with the wifi connection, just reboot several times (maybe 5 times) after you get the internet connection, and update Linux.
 
-Open the terminal and run the command:
+<img src="picture/welcome.png" width=950>
+
+Open the terminal and run the command for update:
 ````sh
 $ sudo apt update
 ````
-later
+Later
 ````sh
 $ sudo apt full-upgrade
 ````
-It will take longer, maybe 1 hour to finish it.
+It will take longer, maybe 1 hour to finish.
 
 Now you can install Python and all libraries from the terminal. 
 
-- Install Python 2.7  (Maybe Python 2.7 is already installed, type python in the terminal and you will see). Otherwise type:
+- Install Python 2.7  (Python 2.7 should be already installed, type python in the terminal and you will see). Otherwise type:
 ````sh
 $ sudo apt install python2.7
 ````
@@ -126,14 +128,17 @@ $ sudo apt install python-matplotlib
 $ sudo apt install xscreensaver
 ````
 
-
-# Increasing the Swap File on a Raspberry Pi
+Increasing the Swap File on a Raspberry Pi
 
 https://pimylifeup.com/raspberry-pi-swap-file/
 
 After all library installed, is time to see the temperature graph in the big monitor.
 
-Download the folder MZDPI and all files from codes section. Keep the same file organization. Create a folder colled Raspberry and place all inside.  
+Download the folder MZDPI and all files from codes section. Keep the same file organization. Create a folder colled Raspberry and place all inside. You will have somthing like this:
+
+<img src="picture/file_organization.png" width=950>
+
+If all is ok until this point we can run the temperature plot, do the next steps:
 
 change directory:
 ````sh
@@ -143,6 +148,10 @@ run the command:
 ````sh
 $ sudo bash temp.sh
 ````
+
+The plot will apears like this:
+
+<img src="picture/temperature_plot.png" width=950>
 
 
 # Booting Up on the W 2.8" screen display
