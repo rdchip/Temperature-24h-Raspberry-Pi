@@ -186,6 +186,12 @@ $ sudo bash temp.sh
 
 # Uninstall 2.8" screen display
 
+In case you need to uninstall the 2.8"display, just go to the terminal and run this:
+````sh
+$ sudo bash off_screen.sh
+````
+The system will reboot and your big monitor will back if you connected.
+
 # Brightness adjustment
 
 
