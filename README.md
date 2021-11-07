@@ -190,7 +190,7 @@ In case you need to uninstall the 2.8"display, just go to the terminal and run t
 ````sh
 $ sudo bash off_screen.sh
 ````
-The system will reboot and your big monitor will back if you connected.
+The system will reboot and your big monitor will back if it is connected.
 
 # Brightness adjustment
 
