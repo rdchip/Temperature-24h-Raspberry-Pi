@@ -157,11 +157,15 @@ The plot will appears like this:
 
 # Booting Up on the W 2.8" screen display
 
-After verifying functionality using regular monitor is time to change to 2.8" display.
-From the terminal, go to the Raspberry folder and run the batch code "set_screen.sh"
+After verifying functionality using regular monitor is time to change to 2.8" display. When you switch the monitor, the resolution change. Before switch the monitor I recomend change the font size of the Terminal to 18.
+
+In the terminal go to menu Edit-->Preference-->Style, click in the font, on the bottom, change the size to 18.
+
 
 <img src="picture/font_size.png" width=950>
 
+
+From the terminal, go to the Raspberry folder and run the batch code "set_screen.sh"
 ````sh
 $ ./set_screen.sh
 ````
