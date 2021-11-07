@@ -124,11 +124,11 @@ $ sudo apt install python-matplotlib
 
 After all library installed, is time to see the temperature graph in the big monitor.
 
-Download the folder MZDPI and all files from codes section. Keep the same file organization. Create a folder colled Rasberri and place all inside.  
+Download the folder MZDPI and all files from codes section. Keep the same file organization. Create a folder colled Raspberry and place all inside.  
 
 change directory:
 ````sh
-$ cd Raspberri
+$ cd Raspberry
 ````
 run the command:
 ````sh
