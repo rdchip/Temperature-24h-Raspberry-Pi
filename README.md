@@ -164,16 +164,18 @@ In the terminal go to menu Edit-->Preference-->Style, click in the font, on the 
 
 <img src="picture/font_size.png" width=950>
 
+When you install the 2.8"display the system will reboot and your big monitor will no longer available. If you want the big monitor back again, you need to uninstall the 2.8"display. Since the project is plot the temperature all the time, all is ok.
 
-From the terminal, go to the Raspberry folder and run the batch code "set_screen.sh"
+
+From the terminal, go to the Raspberry folder and run the batch code "set_screen.sh" to install the 2.8"display.
 ````sh
-$ ./set_screen.sh
+$ sudo bash set_screen.sh
 ````
 The installation will reboot the system and your 2.8" display will be alive.
 Now is time to run the temperature code.
 From the terminal run "temp.sh"
 ````sh
-$ ./temp.sh
+$ sudo bash temp.sh
 ````
 
 # Python code
