@@ -121,6 +121,12 @@ $ sudo pip install numpy
 $ sudo apt install python-matplotlib
 ````
 
+- install screensaver
+````sh
+$ sudo apt install xscreensaver
+````
+In case you need to disable the screensaver
+
 
 After all library installed, is time to see the temperature graph in the big monitor.
 
