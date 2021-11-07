@@ -149,9 +149,10 @@ run the command:
 $ sudo bash temp.sh
 ````
 
-The plot will apears like this:
+The plot will appears like this:
 
 <img src="picture/temperature_plot.png" width=950>
+
 
 
 # Booting Up on the W 2.8" screen display
