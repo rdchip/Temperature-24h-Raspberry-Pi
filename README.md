@@ -194,4 +194,15 @@ The system will reboot and your big monitor will back if it is connected.
 
 # Brightness adjustment
 
+In oreder to reduce the brightness of the 2.8" display, there are two pads that need to be in short circuit, solder this pins and run the bash code:
+````sh
+$ sudo bash tft.sh
+````
+You can modify the brightness from 0 to 100%, just open the file and edit the value, now is set at 80%
+````sh
+gpio -g mode 18 pwm
+gpio pwmc 1000
+gpio -g pwm 18 80
+````
+
 <img src="picture/display_pwm.png" width=300>
