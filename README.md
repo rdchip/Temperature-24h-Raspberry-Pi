@@ -194,4 +194,4 @@ The system will reboot and your big monitor will back if it is connected.
 
 # Brightness adjustment
 
-
+<img src="picture/display_pwm.png" width=300>
