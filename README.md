@@ -60,10 +60,13 @@ Choose the right version:
 
 <img src="picture/imager.png" width=400>
 
-After download and install "Raspberry Pi Imager" open it and click in "CHOOSE OS", since is the first time, select "Raspberry Pi OS (32-bits)".
-Next, select the storage: click in "CHOOSE STORAGE" and select your microSD memory. Finally click in "WRITE" to create the boot card. At the end, you will see something like this:
+After download and install "Raspberry Pi Imager" open it and click in "CHOOSE OS", since is the first time, I recomend install the full version (Python3 and libraries installed) select "Raspberry Pi OS FULL (32-bits)" it is under "Raspberry Pi OS (others)".
 
 <img src="picture/OS_full.png" width=400>
+
+Next, select the storage: click in "CHOOSE STORAGE" and select your microSD memory. Finally click in "WRITE" to create the boot card. At the end, you will see something like this:
+
+<img src="picture/imager2.png" width=400>
 
 Now the microSD memory is ready to place in the Raspberry Pi Zero.   
 
