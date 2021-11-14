@@ -83,7 +83,7 @@ At this point, all hardware is connected and the operating system (Linux) is rea
 # Power up Raspberry Pi Zero
 
 Connect the mini HDMI cable to the monitor, also keyboard and mouse using usb hub, place the microSD memory and power up. Linux will prompt in your monitor. 
-Since is the first boot, you need to follow the guide to setup your language, local time, and all things. The most important is the wifi connection because you need to update the OS. If for some reason you get problems with the wifi connection, just reboot several times (maybe 5 times) after you get the internet connection, and update Linux.
+Since is the first time booting, you need to follow the guide to setup your language, local time, and all things. The most important thing is the wifi connection, you need to update the OS. If for some reason you are facing problems with the wifi connection, maybe is the temperature of the wifi chip. Just let it coolling down.
 
 <img src="picture/welcome.png" width=950>
 
@@ -97,12 +97,10 @@ $ sudo apt full-upgrade
 ````
 It will take longer, maybe 1 hour to finish.
 
-Now you can install Python and all libraries from the terminal. 
+Now you can install libraries for Python3 in the terminal. 
 
-- Install Python 2.7  (Python 2.7 should be already installed, type python in the terminal and you will see). Otherwise type:
-````sh
-$ sudo apt install python2.7
-````
+- Python3 should be already installed, type python3 in the terminal and you will see.
+
 Install parallel
 ````sh
 $ sudo apt install parallel
@@ -111,22 +109,25 @@ Install Libraries:
 
 - Adafruit_DHT
 ````sh
-$ sudo pip install Adafruit_DHT
-````
-- import psutil
-````sh
-$ sudo pip install psutil
-````
-- import numpy as np
-````sh
-$ sudo pip install numpy
-````
-- import matplotlib
-````sh
-$ sudo apt install python-matplotlib
+$ sudo pip3 install Adafruit_DHT
 ````
 
-- install screensaver (in case you need to disable the screensaver)
+Just in case there are no installed, all these 3 libraries should be installed using full OS.
+
+- Install psutil
+````sh
+$ sudo pip3 install psutil
+````
+- Install numpy as np
+````sh
+$ sudo pip3 install numpy
+````
+- Install matplotlib
+````sh
+$ sudo apt install python3-matplotlib
+````
+
+- Install screensaver (in case you need to disable the screensaver)
 ````sh
 $ sudo apt install xscreensaver
 ````
