@@ -132,6 +132,13 @@ $ sudo apt install python3-matplotlib
 $ sudo apt install xscreensaver
 ````
 
+- Install screensaver (in case you need to disable virtual keyboard)
+````sh
+$ sudo apt install matchbox-keyboard
+````
+
+keyboard will be in accessories
+
 Increasing the Swap File on a Raspberry Pi
 
 https://pimylifeup.com/raspberry-pi-swap-file/
