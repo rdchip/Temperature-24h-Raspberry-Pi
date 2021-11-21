@@ -2,8 +2,8 @@
 # install the touch screen
 #chmod +x set_screen.sh
 
-cd MZDPI/vga
-sudo chmod +x mzdpi-vga-autoinstall-online
-sudo ./mzdpi-vga-autoinstall-online
+cd /home/pi/Raspberry/MZDPI/vga
+sudo chmod +x mzdpi-vga-autoinstall-offline
+sudo ./mzdpi-vga-autoinstall-offline
 
 #$ ./set_screen.sh
