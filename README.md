@@ -112,7 +112,7 @@ Install Libraries:
 $ sudo pip3 install Adafruit_DHT
 ````
 
-Just in case there are no installed, all these 3 libraries should be installed using full OS.
+Just in case there are no installed use the following commands (all these 3 libraries should be installed using full OS).
 
 - Install psutil
 ````sh
