@@ -2,7 +2,7 @@
 # remove the touch screen
 #chmod +x off_screen.sh
 
-cd MZDPI/vga
+cd /home/pi/Raspberry/MZDPI/vga
 sudo chmod +x mzdpi-vga-uninstall
 sudo ./mzdpi-vga-uninstall
 
