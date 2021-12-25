@@ -1,0 +1,2 @@
+echo "plotting"; python3 temp-plot.py
+sleep 30; pidof python3 temp-plot.py > pid.txt; echo "sleeping"; sleep 24h; echo "killing"; pid=$(cat pid.txt) && kill -9 $pid; dphys-swapfile swapoff; dphys-swapfile swapon
