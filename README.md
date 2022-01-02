@@ -159,6 +159,19 @@ Replace With >
 ````sh
 CONF_SWAPSIZE=1024
 ````
+save the file pressing CTRL + X and Y to confirm. After that, setup the new size:
+````sh
+sudo dphys-swapfile setup
+````
+Now, turn the swap back on:
+````sh
+sudo dphys-swapfile swapon
+````
+restart the Raspberry Pi:
+````sh
+sudo reboot
+````
+
 Now you will have 1GB of swap file.
 
 
