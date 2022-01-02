@@ -131,16 +131,36 @@ $ sudo apt install python3-matplotlib
 $ sudo apt install xscreensaver
 ````
 
-- Install virtual keyboard (in case you need it)
+- Install virtual keyboard (keyboard will be in accessories, in case you need it)
 ````sh
 $ sudo apt install matchbox-keyboard
 ````
 
-keyboard will be in accessories
 
 Increasing the Swap File on a Raspberry Pi
 
 https://pimylifeup.com/raspberry-pi-swap-file/
+
+Increase the size of the swap file is important if we want to guarantee the functionallity.
+
+Stop the OS using swap file:
+````sh
+$ sudo dphys-swapfile swapoff
+````
+we need to modify the swap file configuration file:
+````sh
+$ sudo nano /etc/dphys-swapfile
+````
+find the following line of text: Use CTRL + W to search the text within the file
+````sh
+CONF_SWAPSIZE=100
+````
+Replace With > 
+````sh
+CONF_SWAPSIZE=1024
+````
+Now you will have 1GB of swap file.
+
 
 After all library installed, is time to see the temperature graph in the big monitor.
 
