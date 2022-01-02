@@ -104,7 +104,7 @@ Install parallel
 ````sh
 $ sudo apt install parallel
 ````
-Install Libraries:
+Install temperature sensor Libraries:
 
 - Adafruit_DHT
 ````sh
