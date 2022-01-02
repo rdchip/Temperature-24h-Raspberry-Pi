@@ -131,7 +131,7 @@ $ sudo apt install python3-matplotlib
 $ sudo apt install xscreensaver
 ````
 
-- Install screensaver (in case you need to disable virtual keyboard)
+- Install virtual keyboard (in case you need it)
 ````sh
 $ sudo apt install matchbox-keyboard
 ````
