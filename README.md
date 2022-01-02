@@ -48,8 +48,8 @@ W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
 
 # Raspberry Pi Linux Image
 
-Basically, the Raspberry Pi needs an Operating System (OS) in order to do any job. Then the microSD memory will store the OS, in this case is Raspbian.
-In this section we will install the Raspbian in the microSD memory. 
+Basically, the Raspberry Pi needs an Operating System (OS) to work. Then, we use microSD memory to store the OS. In this case Raspberry use Linux Raspbian.
+In this section we will install the Raspbian in the microSD memory of 32GbB. 
 Just go to www.raspberrypi.com/software/ and download "Raspberry Pi Imager v1.6"
 
 Choose the right version:
@@ -59,19 +59,19 @@ Choose the right version:
 
 <img src="picture/imager.png" width=400>
 
-After download and install "Raspberry Pi Imager" open it and click in "CHOOSE OS", since is the first time, I recomend install the full version (Python3 and libraries installed) select "Raspberry Pi OS FULL (32-bits)" it is under "Raspberry Pi OS (others)".
+After download and install "Raspberry Pi Imager" open it and click in "CHOOSE OS", since is the first time, I recomend install the full version (Python3 and libraries included). Then, select "Raspberry Pi OS FULL (32-bits)" which is under "Raspberry Pi OS (others)".
 
 <img src="picture/OS_full.png" width=400>
 
-Next, select the storage: click in "CHOOSE STORAGE" and select your microSD memory. Finally click in "WRITE" to create the boot card. At the end, you will see something like this:
+Next, select the storage: click in "CHOOSE STORAGE" and select your microSD memory. Finally, click in "WRITE" to create the boot card. At the end, you will see something like this:
 
 <img src="picture/imager2.png" width=400>
 
-Now the microSD memory is ready to place in the Raspberry Pi Zero.   
+Now, the microSD memory is ready to place in the Raspberry Pi Zero.   
 
 # Sensor temperature connection and 2.8"Display
 
-The table shows the pin assigment to connect the sensor tmeperature and the Raspberry Pi Zero. Solder first the 2.8" display with the Raspberry Pi Zero and later solder the cables of the sensor. If you are planning to use the Raspberry for other project also, I recomend use 2x20 Pin Female Header as extension, so you can remove the display easily.  
+The table shows the pin assigment to connect the sensor temperature and the Raspberry Pi Zero. Solder first the 2.8" display with the Raspberry Pi Zero and later solder the cables of the sensor. If you are planning to use the Raspberry for other project also, I recomend use 2x20 Pin Female Header as extension, so you can remove the display easily.  
 
 <img src="picture/table_sensor.png" width=200>
 <img src="picture/zero_plus_display.png" width=400>
@@ -81,8 +81,8 @@ At this point, all hardware is connected and the operating system (Linux) is rea
 
 # Power up Raspberry Pi Zero
 
-Connect the mini HDMI cable to the monitor, also keyboard and mouse using usb hub, place the microSD memory and power up. Linux will prompt in your monitor. 
-Since is the first time booting, you need to follow the guide to setup your language, local time, and all things. The most important thing is the wifi connection, you need to update the OS. If for some reason you are facing problems with the wifi connection, maybe is the temperature of the wifi chip. Just let it coolling down.
+Connect the mini HDMI cable to your monitor, I recomend connect your keyboard and mouse using usb hub. Now, place the microSD memory and power up. Linux will prompt in your monitor. 
+Since is the first time booting, you need to follow the instructions to setup your language, local time, and other things. At this point, the wifi connection is important, because you need to update the OS and install libraries/drivers. If for some reason you are facing problems with the wifi connection, maybe is the wifi chip is hot. Just let it coolling down.
 
 <img src="picture/welcome.png" width=950>
 
