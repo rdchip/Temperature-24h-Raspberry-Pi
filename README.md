@@ -7,7 +7,7 @@ The solution is run a paralle bash script which run the python code for 24 hours
 
 This project is implemented for monitoring 24 hours in Python.
 
-<img src="picture/IMG_0604.jpg" width=480>       <img src="picture/IMG_0350.jpg" width=480>
+<img src="picture/IMG_0825.jpg" width=480>       <img src="picture/IMG_0350.jpg" width=480>
 
 # Requirements
 
