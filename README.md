@@ -5,7 +5,6 @@ Raspberry Pi Zero project is for monitoring 24h temperature with screen 2.8-inch
 Ploting temperatures values in the display is no complicated, actually that was the easier part. Since our intention is to keep running for a long time (infinite loop), we discover after five days running, the RAM start increasing and finally the Raspberry Pi collapse (segmentation fault). After debugging and research about the issue, we discovered Matplotlib is causing this issue. 
 The solution is run a paralle bash script which run the python code for 24 hours and kill it to avoid segmentation fauls, and run the python code again. Then RAM memory never reach the 100%. Then, we save the python code ID process in PID.txt file and read it every 24 hours. So every 24 hours there are 30 seconds with no plot. I have the project working more than 20 days with no issues.  
 
-This project is implemented for monitoring 24 hours in Python.
 
 <img src="picture/IMG_0825.jpg" width=480>       <img src="picture/IMG_0350.jpg" width=480>
 
