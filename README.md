@@ -234,9 +234,12 @@ You will have somthing like this:
 
 <img src="picture/config.png" width=950>
 
+Now, save it CTRL + O and confirm. Use CTRL + X to exit from nano and finally reboot the system.
 
-The installation will reboot the system and your 2.8" display will be alive.
-Now is time to run the temperature code.
+````sh
+$ reboot
+````
+The reboot bring the 2.8" display be active. Now is time to run the temperature code.
 From the terminal run "temp.sh"
 ````sh
 $ sudo bash temp.sh
