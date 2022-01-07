@@ -174,6 +174,7 @@ sudo reboot
 
 Now you will have 1GB of swap file.
 
+<img src="picture/swapfile.png" width=950>
 
 After all library installed, is time to see the temperature graph in the big monitor.
 
