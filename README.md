@@ -215,6 +215,26 @@ From the terminal, go to the Raspberry folder and run the batch code "set_screen
 ````sh
 $ sudo bash set_screen.sh
 ````
+Now go to boot folder
+````sh
+$ cd /boot
+````
+Open the config.txt
+````sh
+$ sudo nano config.txt
+````
+Comment the following lines using #
+````sh
+display_auto_detect=1
+dtoverlay=vc4-kms-v3d
+max_framebuffers=2
+disable_overscan=1
+````
+You will have somthing like this:
+
+<img src="picture/config.png" width=950>
+
+
 The installation will reboot the system and your 2.8" display will be alive.
 Now is time to run the temperature code.
 From the terminal run "temp.sh"
