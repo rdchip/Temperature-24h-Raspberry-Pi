@@ -126,7 +126,7 @@ $ sudo pip3 install numpy
 $ sudo apt install python3-matplotlib
 ````
 
-- Install screensaver (in case you need to disable the screensaver)
+- Install screensaver (Disable the screen saver)
 ````sh
 $ sudo apt install xscreensaver
 ````
