@@ -246,7 +246,8 @@ $ sudo bash temp.sh
 ````
 
 <img src="picture/display1.jpg" width=480>       <img src="picture/display2.jpg" width=480>
-
+<img src="picture/display3.jpg" width=480>       <img src="picture/display4.jpg" width=480>
+<img src="picture/display5.jpg" width=480>
 # Python code
 
 # Parallel Bash code
