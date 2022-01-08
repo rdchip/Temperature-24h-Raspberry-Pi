@@ -130,7 +130,7 @@ $ sudo apt install python3-matplotlib
 ````sh
 $ sudo apt install xscreensaver
 ````
-
+Go to preference --> Screensaver, under Display Modes, select mode: Disable Screen Saver
 - Install virtual keyboard (keyboard will be in accessories, in case you need it)
 ````sh
 $ sudo apt install matchbox-keyboard
