@@ -245,6 +245,8 @@ From the terminal run "temp.sh"
 $ sudo bash temp.sh
 ````
 
+<img src="picture/display1.jpg" width=480>       <img src="picture/display2.jpg" width=480>
+
 # Python code
 
 # Parallel Bash code
