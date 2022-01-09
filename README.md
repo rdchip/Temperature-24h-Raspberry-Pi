@@ -250,6 +250,24 @@ $ sudo bash temp.sh
 <img src="picture/display5.jpg" width=480>
 # Python code
 
+When we call temp.sh (bash file):
+
+````sh
+while :
+do
+    parallel -j 2 < a1.sh
+done
+````
+
+We are calling a parallel function that run 2 commands lines inside a1.sh (second bash file): 
+
+````sh
+echo "plotting"; python3 temp-plot.py
+sleep 30; pidof python3 temp-plot.py > pid.txt; echo "sleeping"; sleep 24h; echo "killing"; pid=$(cat pid.txt) && kill -9 $pid; dphys-swapfile swapoff; dphys-swapfile swapon
+````
+The fisrts line is printing "plotting" and executing the main python code, which plot the temperature.
+The second line...
+
 # Parallel Bash code
 
 <img src="picture/parallel.png" width=300>
