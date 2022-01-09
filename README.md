@@ -256,7 +256,7 @@ $ sudo bash temp.sh
 
 # Uninstall 2.8" screen display
 
-In case you need to uninstall the 2.8"display, turn off the system and remove the microSD card. Plug the microSD to windows pc and edit the config.txt file. Commend the last section [all] at the end of the file , like the following.
+In case you need to uninstall the 2.8"display, turn off the system and remove the microSD card. Plug the microSD to windows pc and edit the config.txt file. Commend the last section [all] at the end of the file using #, like the following.
 
 <img src="picture/config2.PNG" width=950>
 
