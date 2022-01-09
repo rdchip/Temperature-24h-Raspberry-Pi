@@ -258,7 +258,7 @@ $ sudo bash temp.sh
 
 In case you need to uninstall the 2.8"display, turn off the system and remove the microSD card. Plug the microSD to windows pc and edit the config.txt file. Commend the last section [all] at the end of the file , like the following.
 
-<img src="picture/config2.jpg" width=950>
+<img src="picture/config2.PNG" width=950>
 
 The system will reboot and your big monitor will back if it is connected.
 
