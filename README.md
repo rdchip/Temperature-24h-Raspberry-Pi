@@ -1,4 +1,4 @@
-Temperature 24h Raspberry Pi 
+Raspberry Pi Monitoring Temperature 24h  
 =======
 Raspberry Pi Zero project is for monitoring 24h temperature with screen 2.8-inch display. Raspberry Pi OS (32-bits) based on Debian Linux distibution, allows to install Python plus libraries. Using Linux and Python we are able read data from DHT22 temperature sensor and plot it in the 2.8-inch display. Basically for plotting we are using Matplotlib and update the plot every 60 seconds. The sensor also provide humidity values in percentage but we are just ploting temperature.
 
