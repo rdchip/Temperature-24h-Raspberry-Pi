@@ -67,7 +67,7 @@ Next, select the storage: click in "CHOOSE STORAGE" and select your microSD memo
 
 Now, the microSD memory is ready to place in the Raspberry Pi Zero.   
 
-# Sensor temperature connection and 2.8"Display
+# Temperature Sensor and 2.8"Display Connection
 
 The table shows the pin assigment to connect the sensor temperature and the Raspberry Pi Zero. Solder first the 2.8" display with the Raspberry Pi Zero and later solder the cables of the sensor. If you are planning to use the Raspberry for other project also, I recomend use 2x20 Pin Female Header as extension, so you can remove the display easily.  
 
@@ -75,16 +75,16 @@ The table shows the pin assigment to connect the sensor temperature and the Rasp
 <img src="picture/zero_plus_display.png" width=400>
 <img src="picture/connection.png" width=400>
 
-At this point, all hardware is connected and the operating system (Linux) is ready but the 2.8" display won't wake-up because there is not drivers installed. Let's power up and install Python, libraries and drivers.
+At this point, all hardware is connected and the operating system (Linux) is ready but the 2.8" display won't wake-up because there is not drivers installed. Let's power up and install Python and libraries.
 
 # Power up Raspberry Pi Zero
 
 Connect the mini HDMI cable to your monitor, I recomend connect your keyboard and mouse using usb hub. Now, place the microSD memory and power up. Linux will prompt in your monitor. 
-Since is the first time booting, you need to follow the instructions to setup your language, local time, and other things. At this point, the wifi connection is important, because you need to update the OS and install libraries/drivers. If for some reason you are facing problems with the wifi connection, maybe is the wifi chip is hot. Just let it coolling down.
+Since is the first time booting, you need to follow the instructions to setup your language, local time, and other setting. At this point, the wifi connection is important, because you need to install libraries/drivers. If for some reason you are facing problems with the wifi connection, maybe the wifi chip is hot. Just let it coolling down.
 
 <img src="picture/welcome.png" width=950>
 
-Open the terminal and run the command for update:
+Open the terminal and run the command for update (this is optional):
 ````sh
 $ sudo apt update
 ````
@@ -95,8 +95,6 @@ $ sudo apt full-upgrade
 It will take longer, maybe 1 hour to finish.
 
 Now you can install libraries for Python3 in the terminal. 
-
-- Python3 should be already installed, type python3 in the terminal and you will see.
 
 Install parallel
 ````sh
@@ -129,6 +127,7 @@ $ sudo apt install python3-matplotlib
 $ sudo apt install xscreensaver
 ````
 Go to preference --> Screensaver, under Display Modes, select mode: Disable Screen Saver
+
 - Install virtual keyboard (keyboard will be in accessories, in case you need it)
 ````sh
 $ sudo apt install matchbox-keyboard
@@ -136,8 +135,6 @@ $ sudo apt install matchbox-keyboard
 
 
 Increasing the Swap File on a Raspberry Pi
-
-https://pimylifeup.com/raspberry-pi-swap-file/
 
 Increase the size of the swap file is important if we want to guarantee the functionallity.
 
@@ -157,7 +154,7 @@ Replace With >
 ````sh
 CONF_SWAPSIZE=1024
 ````
-save the file pressing CTRL + X and Y to confirm. After that, setup the new size:
+save the file pressing CTRL + X and Y to confirm. Then setup the new size:
 ````sh
 sudo dphys-swapfile setup
 ````
@@ -165,7 +162,7 @@ Now, turn the swap back on:
 ````sh
 sudo dphys-swapfile swapon
 ````
-restart the Raspberry Pi:
+reboot the Raspberry Pi:
 ````sh
 sudo reboot
 ````
@@ -174,13 +171,13 @@ Now you will have 1GB of swap file.
 
 <img src="picture/swapfile.png" width=950>
 
-After all library installed, is time to see the temperature graph in the big monitor.
+After all library installed, is time to see the plot temperature in the big monitor.
 
-Download the folder MZDPI and all files from codes section. Keep the same file organization. Create a folder colled Raspberry and place all inside. You will have somthing like this:
+Download the folder MZDPI and all files from codes section. Keep the same file organization. Create a folder called Raspberry and place all inside. You will have something like this:
 
 <img src="picture/file_organization.png" width=950>
 
-If all is ok until this point we can run the temperature plot, do the next steps:
+If all is ok until this point we can run the main code, do the next steps:
 
 change directory:
 ````sh
@@ -195,9 +192,7 @@ The plot will appears like this:
 
 <img src="picture/temperature_plot.png" width=950>
 
-
-
-# Booting Up on the W 2.8" screen display
+# Booting Up on the 2.8" screen display
 
 After verifying functionality using regular monitor is time to change to 2.8" display. When you switch the monitor, the resolution change and is not easy to deal with the terminal. Before switch the monitor I recomend change the font size of the Terminal to 18.
 
