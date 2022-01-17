@@ -37,7 +37,7 @@ W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
 
 # Instructions
 - Create image Raspberry Pi Linux 
-- Connecte temperature sensor and 2.8" display 
+- Connect the temperature sensor and 2.8" display 
 - Power up Raspberry with Linux
   - Install Python and libraries
 - Test python project code
