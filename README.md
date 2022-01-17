@@ -201,10 +201,10 @@ In the terminal go to menu Edit-->Preference-->Style, click in the font, on the 
 
 <img src="picture/font_size.png" width=950>
 
-When you install the 2.8"display the system will reboot and your big monitor will no longer available. If you want the big monitor back again, you need to uninstall the 2.8"display. Since the project is plot the temperature all the time, all is ok.
+When you install the 2.8" display your big monitor will no longer available. If you want the big monitor back again, you need to uninstall the 2.8"display. Since the project is plot the temperature continuously, that is fine.
 
 
-From the terminal, go to the Raspberry folder and run the batch code "set_screen.sh" to install the 2.8"display.
+From the terminal, go to the Raspberry folder and run the batch code "set_screen.sh" to install the 2.8" display.
 ````sh
 $ sudo bash set_screen.sh
 ````
@@ -227,12 +227,12 @@ You will have somthing like this:
 
 <img src="picture/config.png" width=950>
 
-Now, save it CTRL + O and confirm. Use CTRL + X to exit from nano and finally reboot the system.
+Now, save with CTRL + O and Y to confirm. Use CTRL + X to exit from nano and finally reboot the system.
 
 ````sh
 $ reboot
 ````
-The reboot bring the 2.8" display be active. Now is time to run the temperature code.
+The reboot will activate the 2.8" display. Now is time to run the temperature code.
 From the terminal run "temp.sh"
 ````sh
 $ sudo bash temp.sh
@@ -241,6 +241,7 @@ $ sudo bash temp.sh
 <img src="picture/display1.jpg" width=480>       <img src="picture/display2.jpg" width=480>
 <img src="picture/display3.jpg" width=480>       <img src="picture/display4.jpg" width=480>
 <img src="picture/display5.jpg" width=480>
+
 # Python code
 
 When we call temp.sh (bash file):
