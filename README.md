@@ -194,7 +194,7 @@ The plot will appears like this:
 
 # Booting Up on the 2.8" screen display
 
-After verifying functionality using regular monitor is time to change to 2.8" display. When you switch the monitor, the resolution change and is not easy to deal with the terminal. Before switch the monitor I recomend change the font size of the Terminal to 18.
+After verifying functionality using regular monitor is time to change to 2.8" display. When you switch the monitor, the resolution change and is not easy to deal with the terminal. Before switch the monitor I recomend change the font size of the Terminal to 16.
 
 In the terminal go to menu Edit-->Preference-->Style, click in the font, on the bottom, change the size to 16.
 
