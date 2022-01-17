@@ -253,14 +253,14 @@ do
 done
 ````
 
-We are calling a parallel function that run 2 commands lines inside a1.sh (second bash file): 
+We are calling a parallel function that run 2 commands lines inside a1.sh 
 
 ````sh
 echo "plotting"; python3 temp-plot.py
 sleep 30; pidof python3 temp-plot.py > pid.txt; echo "sleeping"; sleep 24h; echo "killing"; pid=$(cat pid.txt) && kill -9 $pid; dphys-swapfile swapoff; dphys-swapfile swapon
 ````
-The fisrts line is printing "plotting" and executing the main python code, which plot the temperature.
-The second line...
+The first line is printing "plotting" and executing the main python code "temp-plot.py", which plot the temperature.
+The second line wait 30 seconds before to save process ID of "temp-plot.py" in pid.txt, then print "sleeping" and sleep for 24h. After 24h it will kill the process and clean the swapon file. Since we are in an infinite loop, the parallel function will start again. 
 
 # Parallel Bash code
 
@@ -268,11 +268,11 @@ The second line...
 
 # Uninstall 2.8" screen display
 
-In case you need to uninstall the 2.8"display, turn off the system and remove the microSD card. Plug the microSD to windows pc and edit the config.txt file. Comment the last section [all] at the end of the file using #, like the following.
+In case you need to uninstall the 2.8" display, turn off the system and remove the microSD card. Plug the microSD to windows pc and edit the config.txt file. Comment the last section [all] at the end of the file using #, like the following.
 
 <img src="picture/config2.PNG" width=950>
 
-Save the config file and place the microSD back into the Raspberry Pi and Turn it on. The video signal is back to the mini HMDI port and your big monitor will works again. Remove all # that you inserted to get the 2.8" display back.
+Save the config file and place the microSD back into the Raspberry Pi and Turn it on. The video signal is back to the mini HMDI port and your big monitor will works again. Remove all # that you inserted to get back the 2.8" display.
 
 # Brightness adjustment (2.8" Display only)
 
