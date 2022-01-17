@@ -36,15 +36,13 @@ W Screen iUniker 2.8" GPIO pin distribution, Temperature Sensor pin distribution
 <img src="picture/screen_map.png" width=367>   <img src="picture/sensor_map.png" width=300>
 
 # Instructions
-- Create Raspberry Pi Linux image
-- Sensor temperature connection and 2.8" display 
+- Create image Raspberry Pi Linux 
+- Connecte temperature sensor and 2.8" display 
 - Power up Raspberry with Linux
   - Install Python and libraries
 - Test python project code
 - Install W screen Display 2.8-inch
-- Learn un-install LCD screen
-- Reduce the brightness 
-- Parallel bash code 
+- Learn un-install LCD screen 
 
 # Raspberry Pi Linux Image
 
