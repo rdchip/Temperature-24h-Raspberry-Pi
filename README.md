@@ -235,6 +235,7 @@ $ reboot
 The reboot will activate the 2.8" display. Now is time to run the temperature code.
 From the terminal run "temp.sh"
 ````sh
+$ cd Raspberry
 $ sudo bash temp.sh
 ````
 
