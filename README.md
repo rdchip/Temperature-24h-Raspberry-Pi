@@ -289,3 +289,17 @@ gpio -g pwm 18 80
 ````
 
 <img src="picture/display_pwm.png" width=300>
+
+# Run Automatic the code when power-up
+
+Using 'autostart' file, you can add the top bash code to run every power-up in Raspberry Pi.
+
+````sh
+$ nano /etc/xdg/lxsession/LXDE-pi/autostart
+````
+
+just add new line with:
+````sh
+@sudo bash /home/pi/Raspberry/temp.sh
+````
+and reboot, next power-up the code will start automatically.
